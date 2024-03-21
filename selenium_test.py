@@ -5,7 +5,7 @@ import unittest
 class HerokuAppTest(unittest.TestCase):
     def setUp(self):
         # Inicjalizacja przeglądarki
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome("chromedriver.exe")
 
     def test_login_page(self):
         driver = self.driver
