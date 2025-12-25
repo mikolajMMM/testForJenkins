@@ -187,6 +187,12 @@ def _citations() -> list[Citation]:
             "BVerfG, Urteil des Zweiten Senats vom 28. Mai 1993, 2 BvF 2/90 u.a. (strona informacyjna BVerfG). "
             f"Dostęp: {date.today().strftime('%d.%m.%Y')}, https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1993/05/rs19930528_2bvf000290.html",
         ),
+        Citation(
+            18,
+            "Parliamentary Assembly of the Council of Europe, Resolution 1763 (2010): "
+            "\"The right to conscientious objection in lawful medical care\". "
+            f"Dostęp: {date.today().strftime('%d.%m.%Y')}, https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-en.asp?fileid=17909",
+        ),
     ]
 
 
